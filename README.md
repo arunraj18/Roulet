@@ -1,34 +1,19 @@
-Roulet
-Roulet is a simple full-stack web application built using Django for the backend (API) and React for the frontend (UI). This project demonstrates a basic 3-tier architecture deployed on a local development environment.
-
-roulet/
-├── backend/ # Django backend
-│ ├── manage.py
-│ ├── backend/ # Django project settings
-│ ├── api/ # API app
-│ ├── venv/ # Python virtual environment
-│ └── requirements.txt # Python dependencies
-└── frontend/ # React frontend
- ├── public/
- ├── src/
- ├── package.json
- └── node_modules/
-Features
+Features <br>
 Django REST API: Provides backend API for managing and serving data.
 React Frontend: User interface built with React.js.
 CORS Handling: Django CORS headers configured to allow cross-origin requests from the React frontend.
 
-Requirements
-Python (>= 3.6)
-Node.js (>= 12.x)
-npm (comes with Node.js)
-pip (Python package installer)
-Django (>= 3.2)
-Django REST Framework (>= 3.12)
-django-cors-headers (>= 3.7)
+Requirements  <br>
+Python (>= 3.6) <br>
+Node.js (>= 12.x) <br>
+npm (comes with Node.js) <br>
+pip (Python package installer) <br>
+Django (>= 3.2) <br> 
+Django REST Framework (>= 3.12) <br>
+django-cors-headers (>= 3.7) <br>
 
 
-Installation
+Installation <br>
 1. Clone the Repository
 git clone https://github.com/your-username/roulet.git
 cd roulet
